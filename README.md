@@ -1,29 +1,35 @@
-💰 FinDash - React Finance Dashboard
-A high-performance, single-page application (SPA) built with React and Redux Toolkit for tracking personal finances with real-time data visualization.
+💰# 💰 FinDash - React Finance Dashboard
 
-🚀 https://zorvyn-assignment-xi-rosy.vercel.app/
+A high-performance, responsive dashboard built with **React** and **Redux Toolkit** for tracking personal finances and visualizing cash flow trends.
 
-✨ Key Features
-- Full CRUD: Add and delete transactions with instant UI synchronization.
+**🚀 [Live Demo on Vercel](https://zorvyn-assignment-xi-rosy.vercel.app/)**
 
-- RBAC Logic: toggle between Admin (Manage) and Viewer (Read-only) roles via global state.
+---
 
-- Live Charts: Dynamic data visualization using Recharts for cash flow trends.
+## ✨ Key Features
 
-- Pro Filtering: Search by category and sort by Date or Amount.
+- **Full CRUD Support**: Add and delete transactions with instant UI synchronization.
+- **Role-Based UI**: Toggle between **Admin** (Full Access) and **Viewer** (Read-Only) roles via global state.
+- **Data Visualization**: Interactive Area Charts built with **Recharts** that update in real-time.
+- **Advanced Filtering**: Search by category and sort transactions by Date or Amount.
+- **Mobile-First Design**: Custom responsive sidebar for desktop and a sticky Mobile Header for small screens.
+- **State Management**: Powered by **Redux Toolkit** and **RTK Query** for efficient data caching.
 
-- Mobile-First UI: Custom Responsive Sidebar and Sticky Mobile Header.
+---
 
-🛠️ Tech Stack
-- Frontend: React 18 (Vite) & Tailwind CSS.
+## 🛠️ Tech Stack
 
-- State Management: Redux Toolkit & RTK Query (Caching/Fetching).
+- **Frontend**: React 18 (Vite)
+- **Styling**: Tailwind CSS
+- **State Management**: Redux Toolkit & RTK Query
+- **Icons**: Lucide-React
+- **Charts**: Recharts
+- **Data Layer**: MockAPI.io / JSON-Server
 
-- Icons: Lucide-React.
+---
 
-- Data Layer: MockAPI.io (RESTful JSON Architecture).
+## 🚀 Quick Start
 
-🚀 Quick Start
 1. Install: npm install
 
 2. Dev: npm run dev (Runs Vite Frontend)
