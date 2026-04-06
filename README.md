@@ -1,16 +1,31 @@
-# React + Vite
+💰 FinDash - React Finance Dashboard
+A high-performance, single-page application (SPA) built with React and Redux Toolkit for tracking personal finances with real-time data visualization.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 https://zorvyn-assignment-xi-rosy.vercel.app/
 
-Currently, two official plugins are available:
+✨ Key Features
+-Full CRUD: Add and delete transactions with instant UI synchronization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-RBAC Logic: toggle between Admin (Manage) and Viewer (Read-only) roles via global state.
 
-## React Compiler
+-Live Charts: Dynamic data visualization using Recharts for cash flow trends.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Pro Filtering: Search by category and sort by Date or Amount.
 
-## Expanding the ESLint configuration
+-Mobile-First UI: Custom Responsive Sidebar and Sticky Mobile Header.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+-Frontend: React 18 (Vite) & Tailwind CSS.
+
+-State Management: Redux Toolkit & RTK Query (Caching/Fetching).
+
+-Icons: Lucide-React.
+
+-Data Layer: MockAPI.io (RESTful JSON Architecture).
+
+🚀 Quick Start
+1. Install: npm install
+
+2. Dev: npm run dev (Runs Vite Frontend)
+
+3. Build: npm run build
