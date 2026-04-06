@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.pie-chart:focus {
+  outline: none;
+}

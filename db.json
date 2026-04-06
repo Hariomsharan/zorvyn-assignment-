@@ -1,0 +1,37 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "date": "2026-03-10",
+      "amount": 4500,
+      "category": "Salary",
+      "type": "income"
+    },
+    {
+      "id": "2",
+      "date": "2026-03-12",
+      "amount": 120,
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "id": "3",
+      "date": "2026-03-15",
+      "amount": 800,
+      "category": "Rent",
+      "type": "expense"
+    },
+    {
+      "amount": 200,
+      "category": "Groceries",
+      "type": "expense",
+      "date": "2026-04-06",
+      "id": "mGoKtvgI0ZQ"
+    }
+  ],
+  "profile": {
+    "name": "Alex",
+    "totalBalance": 3580
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
